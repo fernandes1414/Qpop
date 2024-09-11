@@ -1,0 +1,135 @@
+body {
+  font-family: poppins;
+}
+/* Navigasi Bar */
+
+.navbar-nav li {
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav li:hover {
+  transform: scale(1.1);
+}
+
+.navbar-nav li:hover a {
+  color: #fff;
+}
+
+.navbar-nav li:hover a::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  margin-top: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.caption-title {
+  color: dark;
+  padding-top: 20px;
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+.caption-text {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Hero Section index.html */
+.hero {
+  padding: 50px 0;
+}
+
+.hero h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  background-color: #ffc107;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: #ff9900;
+}
+
+/* Features Section index.html */
+.features {
+  padding: 50px 0;
+}
+
+.features h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.features p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Footer index.html */
+.footer {
+  background-color: #333; /* Dark gray background */
+  color: #fff; /* White text color */
+  padding: 50px 0;
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer h4 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer li {
+  margin-bottom: 10px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #ccc;
+}
+
+.footer .copyright {
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.footer .copyright a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer .copyright a:hover {
+  color: #ccc;
+}
